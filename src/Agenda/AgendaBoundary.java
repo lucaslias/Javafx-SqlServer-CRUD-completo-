@@ -66,6 +66,8 @@ public class AgendaBoundary implements EventHandler<ActionEvent> {
 		mnuSistema.getItems().addAll(mnuSair);
 		mnuBar.getMenus().addAll(mnuSistema);
 		
+		//
+		
 		mnuTodosHorarios.setOnAction(this);
 		mnuInformacoesDent.setOnAction(this);
 		mnuAdicionarConsult.setOnAction(this);
